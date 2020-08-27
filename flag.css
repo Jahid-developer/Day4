@@ -1,0 +1,29 @@
+.potaka{
+
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	background: green;
+	position: relative;
+}
+.bitto{
+
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.newbox{
+
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+
+}
